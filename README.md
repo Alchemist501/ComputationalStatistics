@@ -84,8 +84,12 @@
 
 [5.3 Statistics](./cycle5/statistics.py)
 
+##
+
 ### [Cycle 06 : Visualisation in Python](./cycle6)
 
-### [Cycle 01 : Python Concepts, Data Structures, Classes](./cycle1)
+[6.1 Histogram](./cycle6/histogram.py)
 
-#### []()
+[6.2 Visualization](./cycle6/charts.py)
+
+[6.3 Dataframe Manipulation](./cycle6/dataFrame.py)
