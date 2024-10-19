@@ -38,6 +38,22 @@
 
 ### [Cycle 03 : NumPy](./cycle3)
 
+[3.1 Line Graph](./cycle3/plot.py)
+
+[3.2 Diagonals](./cycle3/diagonals.py)
+
+[3.3 NumPy array](./cycle3/flattening.py)
+
+[3.4 Fibanocci Series Using Binet Formula](./cycle3/Fibanocci.py)
+
+[3.5 Inverse The Matrix](./cycle3/Inverse.py)
+
+[3.6 Matrices & Vectors](./cycle3/Products.py)
+
+[3.7 Kronecker](./cycle3/Kronecker.py)
+
+[3.8 Matrix To List](./cycle3/matrixToList.py)
+
 ### [Cycle 04 : Data Aggregation, Group Operations, Time Series](./cycle4)
 
 ### [Cycle 06 : Visualisation in Python](./cycle5)
