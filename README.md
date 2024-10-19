@@ -54,9 +54,29 @@
 
 [3.8 Matrix To List](./cycle3/matrixToList.py)
 
+##
+
 ### [Cycle 04 : Data Aggregation, Group Operations, Time Series](./cycle4)
 
-### [Cycle 06 : Visualisation in Python](./cycle5)
+[4.1 QR Decomposition](./cycle4/QRDecomposition.py)
+
+[4.2 Eigen Values](./cycle4/Eigen.py)
+
+[4.3 n-th order discrete difference](./cycle4/difference.py)
+
+[4.4 Einstein's Summation Convention](./cycle4/Einstein.py)
+
+[4.5 Pearson Product- Moment Correlation](./cycle4/correaltion.py)
+
+[4.6 Statistics](./cycle4/statistics.py)
+
+[4.7 Line Graph](./cycle4/lineGraph.py)
+
+[4.8 NumPy array To CSV](./cycle4/array.py)
+
+### [Cycle 05 : Group Operations, Time Series](./cycle5)
+
+### [Cycle 06 : Visualisation in Python](./cycle6)
 
 ### [Cycle 01 : Python Concepts, Data Structures, Classes](./cycle1)
 
