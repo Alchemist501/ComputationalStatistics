@@ -22,7 +22,19 @@
 
 [1.7 Grades](./cycle1/studGrades.py)
 
+##
+
 ### [Cycle 02 : Data Wrangling](./cycle2)
+
+[2.1 Valid String](./cycle2/string.py)
+
+[2.2 Tuple Of Fruits](./cycle2/fruits.py)
+
+[2.3 Count characters](./cycle2/count.py)
+
+[2.5 BarChart](./cycle2/barchart.py)
+
+##
 
 ### [Cycle 03 : NumPy](./cycle3)
 
