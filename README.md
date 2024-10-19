@@ -56,7 +56,7 @@
 
 ##
 
-### [Cycle 04 : Data Aggregation, Group Operations, Time Series](./cycle4)
+### [Cycle 04 : Data Aggregation](./cycle4)
 
 [4.1 QR Decomposition](./cycle4/QRDecomposition.py)
 
@@ -74,7 +74,15 @@
 
 [4.8 NumPy array To CSV](./cycle4/array.py)
 
+##
+
 ### [Cycle 05 : Group Operations, Time Series](./cycle5)
+
+[5.1 Count characters](./cycle5/fileReading.py)
+
+[5.2 Histogram](./cycle5/histogram.py)
+
+[5.3 Statistics](./cycle5/statistics.py)
 
 ### [Cycle 06 : Visualisation in Python](./cycle6)
 
