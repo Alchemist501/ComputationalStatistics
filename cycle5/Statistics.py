@@ -10,7 +10,10 @@ data =  [
     ["Connecticut", 3574097, 2.4],
     ["Delaware", 897934, 5.8]
 ]
-print(str(stat.mean(row[1] for row in data))+" is the mean of the population , "
-	+str(stat.median(row[1] for row in data))+" is the median and "
-	+str(stat.variance(row[1] for row in data))+" is the variance"
+ls = []
+for row in data:
+	ls.append(row[1])
+print(str(stat.mean(ls))+" is the mean of the population , "
+	+str(stat.median(ls))+" is the median and "
+	+str(stat.variance(ls))+" is the variance"
 )
