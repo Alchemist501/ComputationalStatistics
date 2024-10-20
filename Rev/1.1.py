@@ -1,7 +1,15 @@
-# Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user.
+# Read a number in decimal and convert it into different bases.
 num = int(input("Enter a number :"))
 print(
-    str(num) + " is an even number"
-    if (num % 2 == 0)
-    else str(num) + " is an odd number"
+    str(num)
+    + " in binary form is "
+    + str(bin(num))
+    + "\n"
+    + str(num)
+    + " in octal form is "
+    + str(oct(num))
+    + "\n"
+    + str(num)
+    + " in hexadecimal form is "
+    + str(hex(num))
 )
