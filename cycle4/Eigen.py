@@ -1,19 +1,4 @@
+#Experiment4.2:= Compute the eigenvalues and right eigenvectors of a given square array using NumPy
 import numpy as np
-def input_matrix():
-	size = int(input("Enter the size of the matrix(n x n): "))
-	matrix = []
-	print("Enter the matrix row by row:")
-	for _ in range(size):
-		row = list(map(float, input().split()))
-		if len(row) != size:
-			print("Enter exactly "+ str(size)+" values.")
-			return None
-		matrix.append(row)
-	return np.array(matrix)
-A = input_matrix()
-if A is not None:
-	egVal, egVec = np.linalg.eig(A)
-	print("\nEigen Values :")
-	print(egVal)
-	print("\nEigen Vectors :")
-	print(egVec)
+val , vec = np.linalg.eig(np.array([1,2,4,7]).reshape(2,2))
+print("Eigen value of array : ",val,"\nEigen vector is :\n",vec)

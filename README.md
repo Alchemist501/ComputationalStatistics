@@ -66,7 +66,7 @@
 
 [4.4 Einstein's Summation Convention](./cycle4/Einstein.py)
 
-[4.5 Pearson Product- Moment Correlation](./cycle4/correaltion.py)
+[4.5 Pearson Product- Moment Correlation](./cycle4/correlation.py)
 
 [4.6 Statistics](./cycle4/statistics.py)
 
@@ -82,7 +82,7 @@
 
 [5.2 Histogram](./cycle5/histogram.py)
 
-[5.3 Statistics](./cycle5/statistics.py)
+[5.3 Statistics](./cycle5/Statistics.py)
 
 ##
 

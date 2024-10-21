@@ -1,5 +1,4 @@
-#Experiment4.5:= Compute pearson product-moment correlation coefficients of two given NumPy arrays
+#Experiment4.1:= Calculate the QR decomposition of a given matrix using NumPy
 import numpy as np
-from scipy.stats import pearsonr 
-corr,p = pearsonr(np.array([1,2,3,4,5,6,7,8,9,10]),np.array([10,9,8,7,6,5,4,3,2,1]))
-print("Pearson product-moment correlation coefficient is",corr)
+Q , R = np.linalg.qr(np.array([1,2,3,4,5,6]).reshape(3,2))
+print("Q(Orthogonal Matrix):\n",Q,"\nR(Upper Triangular) :\n",R)
