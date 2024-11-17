@@ -1,19 +1,7 @@
+# Experiment 3.2 := Get all the diagonals of a 3D numpy array
 import numpy as np
 
-def get_2d_diagonals(array_3d):
-    diagonals = []
-    if array_3d.ndim != 3:
-        raise ValueError("Input must be a 3D array.")
-    for i in range(array_3d.shape[0]):
-        slice_2d = array_3d[i]
-        main_diag = np.diagonal(slice_2d)
-        diagonals.append(main_diag)
-        anti_diag = np.diagonal(np.fliplr(slice_2d))
-        diagonals.append(anti_diag)
-    return diagonals
-
-array_3d = np.random.randint(0, 10, (3, 4, 4)) 
-result = get_2d_diagonals(array_3d)
-for idx, diag in enumerate(result):
-    print("Diagonal " + str(idx+1)+": "+ str(diag))
-
+arr = np.arange(27).reshape(3, 3, 3)
+print("Diagonals of axis 1 and 2 are : \n", np.diagonal(arr, axis1=0, axis2=1))
+print("Diagonals of axis 1 and 3 are : \n", np.diagonal(arr, axis1=0, axis2=2))
+print("Diagonals of axis 2 and 3 are : \n", np.diagonal(arr, axis1=1, axis2=2))

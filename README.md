@@ -26,7 +26,7 @@
 
 ### [Cycle 02 : Data Wrangling](./cycle2)
 
-[2.1 Valid String](./cycle2/string.py)
+[2.1 Valid String](./cycle2/ValidString.py)
 
 [2.2 Tuple Of Fruits](./cycle2/fruits.py)
 

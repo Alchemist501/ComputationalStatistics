@@ -1,10 +1,8 @@
-fruit = input("Enter the fruit : ")
-flag = False
-fruits = ['apples', 'bananas', 'blueberries', 'cherries', 'cantaloupes','dates', 'figs', 'grapes','kiwis', 'mangos']
-for f in fruits:
-	if f == fruit:
-		print("The fruit "+fruit+" is present in the list")
-		flag = True
-		break
-if flag == False:
-	print("The fruit is not present in the list")
+# Experiment 2.2 := Define a tuple containing the names of different fruits.
+# Write a python program that prompts the user to enter a fruit name.
+# If the entered fruit name exists in the tuple, display a message confirming its presence
+# Otherwise display a message indicating its absence.
+
+fruits = ("Apple", "Orange", "Grapes", "Banana", "Blueberry", "PineApple")
+fruit = input("Enter a string : ")
+print(fruit, "is" if (fruit in fruits) else "is not", "present in the tuple.")
