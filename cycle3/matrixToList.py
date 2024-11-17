@@ -1,16 +1,8 @@
-def matrix_to_list(matrix):
-    result = []
-    for row in matrix:
-        for element in row:
-            result.append(element)
-    return result
+#Experiment 3.8 := Convert matrix into list
 
-# Example usage:
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-
-converted_list = matrix_to_list(matrix)
-print(converted_list)
+import numpy as np
+mat = np.array([[1,2,3],[4,5,6]])
+print(
+	"Original matrix : \n",mat,
+	"\nMatrix as a list :",mat.tolist()
+)

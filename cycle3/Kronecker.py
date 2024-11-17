@@ -1,12 +1,4 @@
+# Experiment 3.7 := Calculate kronecker product of arrays
+
 import numpy as np
-
-def kronecker_product(A, B):
-    return np.kron(A, B)
-
-# Example usage
-A = np.array([[1, 2], [3, 4]])  # 2x2 matrix
-B = np.array([[0, 5], [6, 7]])  # 2x2 matrix
-
-C = kronecker_product(A, B)
-print("Kronecker product of A and B is:")
-print(C)
+print("Kronecker product is : \n",np.kron(np.array([[1,2],[3,4]]),np.array([[0,5],[6,7]])))
